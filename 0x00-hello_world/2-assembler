@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -clang $CFILE
+gcc -S $CFILE
