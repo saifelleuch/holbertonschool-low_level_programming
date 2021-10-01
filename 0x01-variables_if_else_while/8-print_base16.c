@@ -16,12 +16,12 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-	
+
 	c = 97;
 	while (c <= 102)
 	{
 		putchar(c);
-		c++;	
+		c++;
 	}
 
 	putchar('\n');
