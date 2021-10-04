@@ -14,23 +14,25 @@
 		for (i = 48; i <= 57; i++)
 
 		{
-			for (j = i+1 ; j <= 57; j++)
-
-			{ if ( i < j )
-				{
-			putchar(i);
-			putchar(j);
-
-			if ( i == 56 && j == 57 )
+			for (j = i + 1 ; j <= 57; j++)
 
 			{
-			break;	
-			}
+			       	if ( i < j )
+
+					{
+						putchar(i);
+						putchar(j);
+
+						if ( i == 56 && j == 57 )
+
+							{
+								break;	
+							}		
 	
 
-			putchar(',');
-			putchar(' ');
-				}
+							putchar(',');
+							putchar(' ');
+					}
 			}
 		}
 		putchar('\n');
