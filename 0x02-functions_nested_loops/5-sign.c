@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower - Entry point
+ * print_sign - Entry point
  * @n: variable to check
  * Return: 1 if c is lowercase
  */
