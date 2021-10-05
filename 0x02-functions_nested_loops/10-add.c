@@ -7,7 +7,7 @@
  * @b: b int
  * Return: Always 0 (Success)
  */
-int add(int, int)
+int add(int a, int b)
 {
 	return (a + b);
 }
