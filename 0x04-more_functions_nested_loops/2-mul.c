@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * _isdigit - Entry point
+ * mul - Entry point
  * @a : int
  * @b : int
- * @c : result of a multipled by b
  * Return: c
  */
 
