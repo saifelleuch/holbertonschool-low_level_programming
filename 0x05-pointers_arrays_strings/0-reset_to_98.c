@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - Entry point
- * @*p: pointer
+ * @n: pointer
  * Return: Always 0 (Success)
  */
 
