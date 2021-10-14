@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *_strcpy - Entry point
+ * *_strcat - Entry point
  * @src: pointer
  * @dest: pointer
  * Return: Always 0 (Success)
