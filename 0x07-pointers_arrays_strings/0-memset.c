@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *_strcat - Entry point
+ * *_memset - function that fills memory with a constant byte.
  * @s: memory area
  * @b: constant byte
  * @n: the first n bytes
