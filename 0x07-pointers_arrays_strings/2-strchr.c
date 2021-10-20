@@ -17,7 +17,7 @@ char *_strchr(char *s, char c)
 		i++;
 
 
-	if (s[i] != c)
+	if (s[i] != c && c != '\0')
 		return (NULL);
 	else
 		return (s + i);
