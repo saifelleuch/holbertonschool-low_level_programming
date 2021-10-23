@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
 /**
  * main - function
@@ -13,7 +14,8 @@
 int main(int argc, char **argv)
 {
 
-	int i, j, sum = 0;
+	int i, sum = 0;
+	unsigned int j;
 
 	if (argc < 2)
 		printf("0\n");
@@ -22,7 +24,7 @@ int main(int argc, char **argv)
 	{
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; j < i; j++)
+		for (j = 0; j < strlen(argv[i]); j++)
 		{
 		if (isdigit(argv[i][j]) == 0)
 		{
