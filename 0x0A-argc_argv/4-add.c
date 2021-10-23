@@ -15,6 +15,11 @@ int main(int argc, char **argv)
 
 	int i, j, sum;
 
+	if (argc < 2)
+		printf("0\n");
+
+	else
+	{
 	for (i = 1; i < argc - 1; i++)
 	{
 		for (j = 0; j < i; j++)
@@ -31,10 +36,8 @@ int main(int argc, char **argv)
 		}
 
 	}
-
 	printf("%d\n", sum);
-	if (argc < 2)
-		printf("0\n");
+	}
 
 	return (0);
 
