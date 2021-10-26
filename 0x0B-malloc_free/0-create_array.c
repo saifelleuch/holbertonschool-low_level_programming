@@ -27,7 +27,8 @@ char *create_array(unsigned int size, char c)
 		i++;
 	}
 
-	/*arr[i] = '\0';*/
+	if (size == 0)
+		return (NULL);
 
 	return (arr);
 
