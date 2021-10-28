@@ -25,7 +25,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	for (i = 0; i < nmemb; i++)
 		arr[i] = 0;
-	arr = malloc(nmemb * size);
 
 	return (arr);
 
