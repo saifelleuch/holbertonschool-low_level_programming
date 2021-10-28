@@ -4,8 +4,8 @@
 
 /**
  * *array_range- function that create array
- * @min: size of the array
- * @max: char
+ * @min: the minimum
+ * @max: the maximum
  * Return: Always 0 (Success)
  */
 
@@ -14,21 +14,21 @@ int *array_range(int min, int max)
 {
 
 	int *arr;
-	int i;
+	int i, len;
 
-	arr = malloc(sizeof(int) * max);
+	if (min > max)
+		return (NULL);
+	len = max - min + 1;
 
-	for (i = 0; i <= max; i++)
+	arr = malloc(sizeof(int) * len);
+	if (arr == NULL)
+		return (NULL);
+
+	for (i = 0; i < len; i++)
 	{
 		arr[i] = min;
 		min++;
 	}
-
-	if (arr == NULL)
-		return (NULL);
-
-	if (min > max)
-		return (NULL);
 
 	return (arr);
 
